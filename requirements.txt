@@ -1,0 +1,9 @@
+Flask
+flask_restful
+flask_cors
+flask_sqlalchemy
+flask-marshmallow
+git+https://github.com/MikeHibbert/arweave-python-client.git
+web3
+gunicorn
+psycopg2

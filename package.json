@@ -1,0 +1,16 @@
+{
+  "name": "metaworld",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "heroku-postbuild": "cd web && npm install --force && npm run build"
+  },
+  "cacheDirectories": [
+    "web/node_modules"
+  ],
+  "dependencies": {
+    "arweave": "^1.10.18"
+  }
+}
